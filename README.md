@@ -37,3 +37,13 @@ This dataset contains Car resale prices all over the cities from India, updated 
 
 `city`: City in India the car is sold in
 
+
+## Model Summary
+
+| Model                     | MAE     | MSE     |
+| --------------------------|---------|-------- |
+| RandomForestRegressor     | 1.5785  | 13.6630 |
+| SVR                       | 1.8318  | 27.1262 |
+| GradientBoostingRegressor | 2.9076  | 33.9695 |
+| AdaBoostRegressor         | 2.7095  | 24.7015 |
+| KNeighborsRegressor       | 1.6390  | 17.4252 | 
